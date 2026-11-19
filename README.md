@@ -32,11 +32,11 @@ A contact page for a fictional college, built with **vanilla HTML, CSS and JavaS
 ```
 .
 ├── index.html         # Contact form page
-├── obrigado.html      # Page shown after submission
+├── thank-you.html     # Page shown after submission
 ├── css/
-│   └── estilos.css    # All styles
+│   └── styles.css     # All styles
 └── js/
-    └── principal.js   # Character counter, phone mask and form submission
+    └── main.js        # Character counter, phone mask and form submission
 ```
 
 ## Getting started
@@ -75,7 +75,7 @@ No installation needed:
 
 ### JavaScript
 
-- Split the script into small, clearly named functions (`formatarTelefone`, `salvarNome`, `recuperarNome`, `configurarFormulario`, `configurarPaginaObrigado`), each with a single responsibility.
+- Split the script into small, clearly named functions (`formatPhone`, `saveName`, `retrieveName`, `setUpForm`, `setUpThankYouPage`), each with a single responsibility.
 - Selected elements with `getElementById` and `form.elements`, and handled user actions with `addEventListener`.
 - Built a **character counter** updated on the `input` event.
 - Built a **phone mask** using a regular expression (`/\D/g`) to keep only digits before formatting them.
