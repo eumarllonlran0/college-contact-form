@@ -93,4 +93,4 @@ Não precisa instalar nada:
 
 ## Autor
 
-Feito por **Marllon Lorran** — [LinkedIn](https://www.linkedin.com/in/eumarllonlran/) · [GitHub](https://github.com/eumarllonlran0)
+Feito por **Marllon Lorran** — [LinkedIn](https://www.linkedin.com/in/eumarllonlran0/) · [GitHub](https://github.com/eumarllonlran0)
