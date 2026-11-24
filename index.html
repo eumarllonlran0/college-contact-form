@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact Horizonte College: admissions and enrollment, tuition and scholarships, registrar's office, internships and careers, and IT support.">
+  <meta name="description" content="Fale com a Faculdade Horizonte: admissão e matrícula, mensalidades e bolsas, secretaria acadêmica, estágios e carreiras e suporte de TI.">
   <meta name="color-scheme" content="light dark">
-  <title>Contact Us — Horizonte College</title>
+  <title>Fale Conosco — Faculdade Horizonte</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -19,105 +19,105 @@
 <body>
   <main class="page">
     <header class="intro">
-      <p class="badge">Horizonte College</p>
-      <h1>Contact us</h1>
-      <p>Have a question about admissions, tuition or academic life? Send us a message and the right department will reply within two business days.</p>
+      <p class="badge">Faculdade Horizonte</p>
+      <h1>Fale conosco</h1>
+      <p>Tem alguma dúvida sobre admissão, mensalidades ou vida acadêmica? Envie uma mensagem e o setor responsável responderá em até dois dias úteis.</p>
     </header>
 
     <form class="card" id="contact-form" action="thank-you.html" method="post">
       <fieldset>
-        <legend>About you</legend>
+        <legend>Sobre você</legend>
 
         <div class="row">
           <div class="field">
-            <label for="firstName">First name</label>
+            <label for="firstName">Nome</label>
             <input type="text" id="firstName" name="firstName" autocomplete="given-name"
               aria-describedby="first-name-error" required>
-            <small class="error" id="first-name-error">Please enter your first name.</small>
+            <small class="error" id="first-name-error">Informe seu nome.</small>
           </div>
           <div class="field">
-            <label for="lastName">Last name</label>
+            <label for="lastName">Sobrenome</label>
             <input type="text" id="lastName" name="lastName" autocomplete="family-name"
               aria-describedby="last-name-error" required>
-            <small class="error" id="last-name-error">Please enter your last name.</small>
+            <small class="error" id="last-name-error">Informe seu sobrenome.</small>
           </div>
         </div>
 
         <div class="row">
           <div class="field">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com"
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="voce@exemplo.com"
               aria-describedby="email-error" required>
-            <small class="error" id="email-error">Please enter a valid email address.</small>
+            <small class="error" id="email-error">Informe um e-mail válido.</small>
           </div>
           <div class="field">
-            <label for="phone">Phone <span class="optional">(optional)</span></label>
+            <label for="phone">Telefone <span class="optional">(opcional)</span></label>
             <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="numeric"
               placeholder="(00) 00000-0000">
           </div>
         </div>
 
         <fieldset class="field">
-          <legend class="field-label">I am a…</legend>
+          <legend class="field-label">Eu sou…</legend>
           <div class="options">
             <label class="option">
               <input type="radio" name="role" value="prospective-student" required checked>
-              <span>Prospective student</span>
+              <span>Futuro aluno</span>
             </label>
             <label class="option">
               <input type="radio" name="role" value="current-student">
-              <span>Current student</span>
+              <span>Aluno matriculado</span>
             </label>
             <label class="option">
               <input type="radio" name="role" value="parent-guardian">
-              <span>Parent or guardian</span>
+              <span>Pai, mãe ou responsável</span>
             </label>
             <label class="option">
               <input type="radio" name="role" value="alumnus">
-              <span>Alumnus</span>
+              <span>Ex-aluno</span>
             </label>
           </div>
         </fieldset>
       </fieldset>
 
       <fieldset>
-        <legend>Your message</legend>
+        <legend>Sua mensagem</legend>
 
         <div class="field">
-          <label for="department">Department</label>
+          <label for="department">Setor</label>
           <select id="department" name="department" aria-describedby="department-error" required>
-            <option value="" disabled selected>Select a department</option>
-            <option value="admissions">Admissions and enrollment</option>
-            <option value="tuition">Tuition and scholarships</option>
-            <option value="registrar">Registrar's office</option>
-            <option value="internships-careers">Internships and careers</option>
-            <option value="it-support">IT support</option>
-            <option value="other">Other</option>
+            <option value="" disabled selected>Selecione um setor</option>
+            <option value="admissions">Admissão e matrícula</option>
+            <option value="tuition">Mensalidades e bolsas</option>
+            <option value="registrar">Secretaria acadêmica</option>
+            <option value="internships-careers">Estágios e carreiras</option>
+            <option value="it-support">Suporte de TI</option>
+            <option value="other">Outro</option>
           </select>
-          <small class="error" id="department-error">Please select a department.</small>
+          <small class="error" id="department-error">Selecione um setor.</small>
         </div>
 
         <div class="field">
-          <label for="subject">Subject</label>
+          <label for="subject">Assunto</label>
           <input type="text" id="subject" name="subject" maxlength="100" aria-describedby="subject-error" required>
-          <small class="error" id="subject-error">Please enter a subject.</small>
+          <small class="error" id="subject-error">Informe o assunto.</small>
         </div>
 
         <div class="field">
-          <label for="message">Message</label>
+          <label for="message">Mensagem</label>
           <textarea id="message" name="message" rows="5" minlength="20" maxlength="1000"
-            placeholder="Tell us how we can help…" aria-describedby="message-error counter" required></textarea>
-          <small class="error" id="message-error">Please write at least 20 characters.</small>
+            placeholder="Conte como podemos ajudar…" aria-describedby="message-error counter" required></textarea>
+          <small class="error" id="message-error">Escreva pelo menos 20 caracteres.</small>
           <small class="counter" id="counter" aria-live="polite">0 / 1000</small>
         </div>
       </fieldset>
 
       <label class="consent">
         <input type="checkbox" name="consent" required>
-        <span>I authorize Horizonte College to contact me about this request.</span>
+        <span>Autorizo a Faculdade Horizonte a entrar em contato comigo sobre esta solicitação.</span>
       </label>
 
-      <button type="submit">Send message</button>
+      <button type="submit">Enviar mensagem</button>
     </form>
   </main>
 </body>
