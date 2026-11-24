@@ -54,7 +54,7 @@ function setUpForm(form) {
         event.preventDefault();
 
         submitButton.disabled = true;
-        submitButton.textContent = "Sending…";
+        submitButton.textContent = "Enviando…";
 
         saveName(form.elements["firstName"].value.trim());
         window.location.href = form.action;
