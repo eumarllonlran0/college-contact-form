@@ -2,7 +2,7 @@
 
 Contact page for a fictional college, built with **plain HTML, CSS, and JavaScript** (no frameworks). The project started as a front-end exercise to practice semantic markup, responsive styling, and basic interactivity.
 
-🔗 **Live demo:** https://eumarllonlran0.github.io/formulario-contato-faculdade/
+🔗 **Live demo:** https://eumarllonlran0.github.io/college-contact-form/
 
 ## Features
 
@@ -45,7 +45,7 @@ No installation required:
 
 1. Download or clone the repository
    ```bash
-   git clone https://github.com/eumarllonlran0/formulario-contato-faculdade.git
+   git clone https://github.com/eumarllonlran0/college-contact-form.git
    ```
 2. Open `index.html` in your browser
 
